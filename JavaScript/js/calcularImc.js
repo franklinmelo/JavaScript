@@ -3,7 +3,6 @@ titulo.textContent = "Julio Nutricionista";	//atribui valor de texto a tag
 
 var pacientes = document.querySelectorAll(".paciente");
 for(var i = 0; i<pacientes.length; i++){
-	console.log(pacientes[i]);
 
 	var peso = (pacientes[i].querySelector(".info-peso")).textContent ;
 	var altura = (pacientes[i].querySelector(".info-altura")).textContent;

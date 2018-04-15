@@ -9,7 +9,6 @@ buttonAdd.addEventListener("click",function(event){//captura ação de click
 	
 	if(erros.length == 0){
 		var pacienteTr = montarTr(paciente);//add nova linha na tabela
-		console.log(paciente);
 		form.reset();//limpa os campos do formulario
 		var ul = document.querySelector("#mensagem-erro");
 		ul.innerHTML = "";//limpa a ul(insere vazio a um conteudo html)	
