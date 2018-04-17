@@ -96,7 +96,7 @@ label{
 	padding: 10px 0px;
 }
 
-button{
+.bto-principal{
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
@@ -111,6 +111,22 @@ button{
     display: block;
     clear: both;
     margin: 10px 0px;
+
+}
+.bto-buscar{
+	padding: .5em 2.5em; /*largura e altura*/
+	border: 0; /*borda interna do button*/
+	border-bottom: 3px solid; /*margem de baixo(linha(solid)de baixo)*/
+	font-size: 1em; /*tamanho da fonte da letra*/
+	cursor: pointer; /*deixa o mouse em formato de mãozinha*/
+	margin-top: 2px;/*margem de cima*/
+	color: #fff;/*cor da fonte*/
+	background-color: #0c8cd3;/*cor do fundo*/
+	border-color: #04324c;/*cor da borda(linha de baixo)*/
+	width: 23%;/*tamanho da janela em relação a margem da pagina*/
+	display: block; /*organiza em bloco*/
+	clear: both; /*faz "flutuar" em baixo de outro objeto*/
+	margin: 10px 0px;/*margem lateral*/
 
 }
 
